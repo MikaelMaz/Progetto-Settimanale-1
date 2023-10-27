@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+
+body {
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif; 
+    color: #393d41;
+    line-height: 1.65;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1.5;
+}
+
+header {
+    background-image: url(banner.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+header div{
+    text-align: center;
+    background-color: black;
+    padding: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    padding: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    line-height: 1;
+}
+
+header p {
+    text-align: center;
+    padding: 2em;
+    padding-top: 0%;
+    padding-bottom: 1em;
+}
+
+.bottone {
+    text-align: center;
+    background-color: transparent;
+    padding: 0.5em;
+    padding-bottom: 2em;
+}
+
+button {
+    font-size: 0.9em;
+    text-align: center;
+    padding: 1em ;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: white;
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif; ;
+    border: 0;
+    border-radius: 5%;
+}
+
+article {
+    text-align: center;
+    line-height: 1.5;
+}
+
+article:first-child {
+    padding-top: 2em;
+}
+
+article h3 {
+    padding: 0.8em;
+    padding-bottom: 0.5em;
+}
+
+article p {
+    padding-left: 1.7em;
+    padding-right: 1.7em;
+    padding-bottom: 0.8em;
+}
+
+article:last-child {
+    padding-bottom: 4em;
+}
+
+.sotto {
+    padding-bottom: 3em;
+}
+
+picture img {
+    border-radius: 50%;
+    width: 300px;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.garanzie {
+    background-color: #e22d0e ;
+    padding: 1.2em; 
+    padding-top: 2.7em;
+    padding-bottom: 2.3em;
+    margin-bottom: 3em;
+}
+
+.garanzie h2, .garanzie cite, .garanzie p, .garanzie h5 {
+    color: white;
+}
+
+.garanzie h2 {
+    font-size: 1.8em; 
+    padding-bottom: 0.8em;
+}
+
+.garanzie cite {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.garanzie p {
+    padding-top: 1.5em;
+    padding-bottom: 0.1em;
+}
+
+.garanzie h5 {
+    font-family: 'Open Sans', sans-serif; ;
+    font-size: 0.6em;
+}
+
+.tmyk {
+    padding: 1.7em;
+    padding-top: 0em;
+}
+
+.bordi {
+    border: 1px;
+    border-color:#dee1e3;
+    border-style: solid;
+}
+
+.bordi img{
+    
+}
+
+.bordi h4 {
+    padding-top: 1em;
+    padding-bottom: 0.6em;
+}
+
+.bordi p {
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    padding-bottom: 2em;
+}
+
+footer, footer h2, footer a {
+    background-color: #25a2c3 ;
+    color:white;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 1.7em;
+    padding-bottom: 0.6em;
+}
+
+footer a, footer p {
+    color: #c8e7f0;
+}
+
+footer {
+    padding: 3em;
+    padding-top: 2em;
+    padding-bottom: 4.5em;
+}
+
+hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
